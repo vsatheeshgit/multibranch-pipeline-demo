@@ -14,7 +14,7 @@ pipeline {
 
       steps {
 
-       echo 'Deploying only because this commit is tagged...'
+       echo 'Deploying From Master Branch'
 
       }
 
