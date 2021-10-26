@@ -14,7 +14,7 @@ pipeline {
 
       steps {
 
-       echo 'Deploying From Featured Branch'
+       echo 'Deploying From Develop Branch'
 
       }
 
