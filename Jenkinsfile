@@ -14,11 +14,7 @@ pipeline {
 
       steps {
 
-        sh '''
-
-          java -version
-
-        '''
+       echo 'Deploying only because this commit is tagged...'
 
       }
 
