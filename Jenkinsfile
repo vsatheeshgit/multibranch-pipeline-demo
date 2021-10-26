@@ -14,11 +14,7 @@ pipeline {
 
       steps {
 
-        sh '''
-
-          java -version
-
-        '''
+       echo 'Deploying From Featured Branch'
 
       }
 
