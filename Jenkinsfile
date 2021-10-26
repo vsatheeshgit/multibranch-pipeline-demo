@@ -14,11 +14,7 @@ pipeline {
 
       steps {
 
-        sh '''
-
-          java -version
-
-        '''
+        echo 'Deploying only From Feature Branch...'
 
       }
 
@@ -27,8 +23,8 @@ pipeline {
      stage('Deploy') {
             when { tag "release-*" }
             steps {
-                echo 'Deploying only because this commit is tagged...'
-                sh 'make deploy'
+                echo 'Able to find the release tag so running this stage'
+                
             }
         }
 
